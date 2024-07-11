@@ -1,4 +1,4 @@
-const { Book, Library } = require('../library');
+const { Book, Library } = require('library');
 
 describe('Book', () => {
   test('constructor sets properties correctly', () => {

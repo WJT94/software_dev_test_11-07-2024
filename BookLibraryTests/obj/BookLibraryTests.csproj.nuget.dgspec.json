@@ -1,22 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Stuart\\Projects\\nunit-csharp-samples-master\\nunit-csharp-samples-master\\BookLibraryTests\\BookLibraryTests.csproj": {}
+    "/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/BookLibraryTests.csproj": {}
   },
   "projects": {
-    "C:\\Stuart\\Projects\\nunit-csharp-samples-master\\nunit-csharp-samples-master\\BookLibraryTests\\BookLibraryTests.csproj": {
+    "/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/BookLibraryTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Stuart\\Projects\\nunit-csharp-samples-master\\nunit-csharp-samples-master\\BookLibraryTests\\BookLibraryTests.csproj",
+        "projectUniqueName": "/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/BookLibraryTests.csproj",
         "projectName": "BookLibraryTests",
-        "projectPath": "C:\\Stuart\\Projects\\nunit-csharp-samples-master\\nunit-csharp-samples-master\\BookLibraryTests\\BookLibraryTests.csproj",
-        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Stuart\\Projects\\nunit-csharp-samples-master\\nunit-csharp-samples-master\\BookLibraryTests\\obj\\",
+        "projectPath": "/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/BookLibraryTests.csproj",
+        "packagesPath": "/Users/will/.nuget/packages/",
+        "outputPath": "/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Stuart\\Projects\\nunit-csharp-samples-master\\nunit-csharp-samples-master\\NuGet.Config",
-          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/NuGet.Config",
+          "/Users/will/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -35,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -78,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

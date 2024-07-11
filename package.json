@@ -1,0 +1,7 @@
+{
+    "name": "software-dev-test-package",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "node Javascript/unit.test.js"
+    }
+  }

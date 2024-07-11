@@ -1,0 +1,6 @@
+/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/obj/Debug/net8.0/BookLibraryTests.csproj.AssemblyReference.cache
+/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/obj/Debug/net8.0/BookLibraryTests.GeneratedMSBuildEditorConfig.editorconfig
+/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/obj/Debug/net8.0/BookLibraryTests.AssemblyInfoInputs.cache
+/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/obj/Debug/net8.0/BookLibraryTests.AssemblyInfo.cs
+/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/obj/Debug/net8.0/BookLibraryTests.csproj.CoreCompileInputs.cache
+/Users/will/Desktop/Apprenticeship/software_dev_test_11-07-2024/BookLibraryTests/obj/Debug/net8.0/BookLibraryTests.sourcelink.json

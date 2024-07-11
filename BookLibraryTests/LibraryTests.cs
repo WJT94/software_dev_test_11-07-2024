@@ -3,16 +3,30 @@
 [TestFixture]
 public class LibraryTests
 {
+    public void LibraryInit()
+    {
+        string isbn = "testISBN";
+        string title = "testTitle";
+        string author = "testAuthor";
+        Book book = new Book(isbn, title, author);
+        Library.AddBook(book);
+    }
+
     [Test]
     public void AddBook_IncreasesTotalBooks()
     {
-        // Implement test
+        int oldCount = Library.GetTotalBooks();
+        LibraryInit()
+        Assert.That(oldCount, Is.EqualTo(Library.GetTotalBooks()), "Adding a book does not increase Library's total books")
     }
 
     [Test]
     public void FindBookByISBN_ReturnsCorrectBook()
     {
-        // Implement test
+        string isbn = "testISBN";
+        LibraryInit()
+        foundBook = Library.FindBookByISBN("testISBN")
+        Assert.That(isbn, Is.EqualTo(foundBook.ISBN), "FindBookByISBN does not return the correct book")
     }
 
     [Test]
