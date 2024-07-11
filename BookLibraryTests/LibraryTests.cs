@@ -17,7 +17,7 @@ public class LibraryTests
     {
         int oldCount = Library.GetTotalBooks();
         LibraryInit()
-        Assert.That(oldCount, Is.EqualTo(Library.GetTotalBooks()), "Adding a book does not increase Library's total books")
+        Assert.That(oldCount, Is.EqualTo(Library.GetTotalBooks()), "Adding a book does not increase Library's total books") 
     }
 
     [Test]
