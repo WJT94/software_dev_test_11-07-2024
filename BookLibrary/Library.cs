@@ -7,7 +7,14 @@ public class Library
 
     public void AddBook(Book book)
     {
-        books.Add(book);
+        if (!books.Exists(b => b.ISBN == book.ISBN))
+        {
+            books.Add(book);
+        }
+        else
+        {
+            Console.WriteLine($"Book with ISBN {book.ISBN} already exists.");
+        }
     }
 
     public Book FindBookByISBN(string isbn)
